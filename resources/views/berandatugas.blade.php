@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>5026241172</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+            <h1>Muhammad Ajie Aditya Pratama</h1>
+            <h1>5026241172</h1>
+            <p><a href="pert5" target="_blank"><button class="btn btn-primary">Pertemuan 5</button></p></a>
+            <p><a href="tugaspert5" target="_blank"><button class="btn btn-primary">Tugas LinkTree</button></p></a>
+            <p><a href="" target="_blank"><button class="btn btn-primary">Tugas MakeOver IG</button></p></a>
+            <p><a href="" target="_blank"><button class="btn btn-primary">UTS</button></p></a>
+
+        </center>
+
+    </div>
+
+</body>
+
+</html>

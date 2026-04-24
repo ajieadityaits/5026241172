@@ -19,6 +19,31 @@ Route::get('pert5', function () {
     return view('pertemuan5');
 });
 
+Route::get('tugaspert5', function () {
+    return view('tugaspertemuan5');
+});
+
+Route::get('beranda', function () {
+    return view('berandatugas');
+});
+
+Route::get('intro', function () {
+    return view('intro');
+});
+
+Route::get('mercedesf1', function () {
+    return view('webmercedes');
+});
+
+Route::get('responsive', function () {
+    return view('responsive');
+});
+
+Route::get('news', function () {
+    return view('news');
+});
+
+
 Route::get('dosen', [DosenController::class, 'index']);
 
 Route::get('biodata', [DosenController::class, 'biodata']);
