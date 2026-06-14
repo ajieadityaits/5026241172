@@ -55,10 +55,7 @@
                        value="{{ old('TanggalLahir') }}">
         </div>
 
-        <p>
-            <label>Tanggal Lahir</label><br>
-            <input type="date" name="TanggalLahir" id="TanggalLahir" value="{{ old('TanggalLahir') }}">
-        </p>
+
 
         <button type="submit">Simpan</button>
         <button><a href="{{ route('siswa.index') }}">Kembali</a></button>

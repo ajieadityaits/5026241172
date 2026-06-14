@@ -24,7 +24,7 @@
                         <a class="nav-link" href="/pegawai">Pegawai</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/meja">Meja</a>
+                        <a class="nav-link" href="/dvd">DVD</a>
                     </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/siswa">Siswa</a>
