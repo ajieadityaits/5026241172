@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\BelanjaDBController;
+use App\Http\Controllers\NilaiKuliahController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -57,3 +59,14 @@ Route::get('/pegawaiedit/{id}', [PegawaiDBController::class, 'edit']);
 Route::post('/pegawaiupdate', [PegawaiDBController::class, 'update']);
 Route::get('/pegawaihapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawaicari', [PegawaiDBController::class, 'cari']);
+
+
+//CRUD TABEL KERANJANGBELANJA
+Route::get('/belanja', [BelanjaDBController::class, 'indexbelanja']);
+Route::get('/belanjabeli', [BelanjaDBController::class, 'belanjabeli']);
+Route::get('/belanjahapus/{id}', [BelanjaDBController::class, 'hapusbelanja']);
+
+//CRUD TABEL NILAI
+Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index']);
+Route::get('/nilaikuliahtambah',[NilaiKuliahController::class, 'tambah']);
+Route::post('/nilaikuliahstore',[NilaiKuliahController::class, 'store']);
