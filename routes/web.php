@@ -7,6 +7,7 @@ use App\Http\Controllers\BelanjaDBController;
 use App\Http\Controllers\NilaiKuliahController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\dvdDBController;
+use App\Http\Controllers\TagihanAirDBController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -85,3 +86,14 @@ Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.
 Route::get('/dvd', [dvdDBController::class, 'index']);
 Route::get('/tambahdvd', [dvdDBController::class, 'tambahdvd']);
 Route::post('/storedvd',[dvdDBController::class, 'store']);
+
+//Beranda UAS
+Route::get('home', function () {
+    return view('template');
+});
+
+//CRUD TAGIHAN AIR
+Route::get('/eas', [TagihanAirDBController::class, 'index']);
+Route::get('/tagihanairtambah',[TagihanAirDBController::class, 'tambah']);
+Route::post('/tagihanairstore',[TagihanAirDBController::class, 'store']);
+
